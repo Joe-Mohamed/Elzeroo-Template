@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elzero Template</title>
+    <title>Hakona Template</title>
     <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/all.min.css">
     <link rel="stylesheet" href="CSS/normalize.css">
@@ -60,10 +60,11 @@
                         </ul>
                         <ul class="links">
                             <li>
-                                <a href="#events"><i class="far fa-calendar-alt fa-fw"></i> Events</a>
+                                <a style="color:red ;" href="#events"><i class="far fa-calendar-alt fa-fw"></i>
+                                    Soon</a>
                             </li>
                             <li>
-                                <a href="#pricing"><i class="fas fa-server fa-fw"></i> Pricing Plans</a>
+                                <a style="color:red ;" href="#pricing"><i class="fas fa-server fa-fw"></i> Soon</a>
                             </li>
                             <li>
                                 <a href="#video"><i class="far fa-play-circle fa-fw"></i> Top Videos</a>
@@ -657,7 +658,7 @@
     </div>
     <!-- End Our Skills  -->
     <!-- Start How it work -->
-    <div class="work-steps">
+    <div class="work-steps" id="work-steps">
         <h2 class="main-heading">How it works</h2>
         <div class="container">
             <img src="media/work-steps.png" alt="">
@@ -693,6 +694,157 @@
         </div>
     </div>
     <!-- End How it work -->
+    <!-- Start Top Videos  -->
+    <div class="videos" id="video">
+        <h3 class="main-heading">Top videos</h3>
+        <div class="container">
+            <div class="holder">
+                <div class="list">
+                    <div class="name">
+                        Top Videos
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <ul>
+                        <li>How To Create Sub Domain<span>05:18</span></li>
+                        <li>Playing With The DNS <span>03:18</span></li>
+                        <li>Everything About The Virtual Hosts <span>05:25</span></li>
+                        <li>How To Monitor Your Website <span>04:16</span></li>
+                        <li>Uncharted Beating The Last Boss <span>07:48</span></li>
+                        <li>Ys Oath In Felghana Overview <span>03:12</span></li>
+                        <li>Ys Series All Games Ending <span>08:10</span></li>
+                    </ul>
+                </div>
+                <div class="preview">
+                    <img src="media/video-preview.jpg" alt="">
+                    <div class="info">Everything About The Virtual Hosts</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Top Videos -->
+    <!-- Start Stats -->
+    <div class="stats" id="stats">
+        <h2>Our Awesome Stats</h2>
+        <div class="container">
+            <div class="box">
+                <i class="far fa-user fa-2x fa-fw"></i>
+                <span class="number" data-goal="150">150</span>
+                <span class="text">Clients</span>
+            </div>
+            <div class="box">
+                <i class="fas fa-code fa-2x fa-fw"></i>
+                <span class="number" data-goal="135">135</span>
+                <span class="text">Projects</span>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia fa-2x fa-fw"></i>
+                <span class="number" data-goal="50">50</span>
+                <span class="text">Countries</span>
+            </div>
+            <div class="box">
+                <i class="far fa-money-bill-alt fa-2x fa-fw"></i>
+                <span class="number" data-goal="500">500</span>
+                <span class="text">Money</span>
+            </div>
+        </div>
+    </div>
+    <!-- End Stats -->
+    <!-- Start Discount -->
+    <div class="discount" id="discount">
+        <div class="image">
+            <div class="content">
+                <h2>We Have A Discount</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi asperiores consectetur,
+                    recusandae
+                    ratione provident necessitatibus, cumque delectus commodi fuga praesentium beatae. Totam vel
+                    similique
+                    laborum dicta aperiam odit doloribus corporis.
+                </p>
+                <img src="media/discount.png" alt="">
+            </div>
+        </div>
+        <div class="form">
+            <div class="content">
+                <h2>Request A Discount</h2>
+                <form action="">
+                    <input class="input" type="text" placeholder="Your Name" name="name">
+                    <input class="input" type="email" placeholder="Your Email" name="email">
+                    <input class="input" type="text" placeholder="Your Phone" name="mobile">
+                    <textarea class="input" placeholder="Tell Us About Your Needs" name="message"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- End Discount -->
+    <!-- Start Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="box">
+                <h3>Hakona</h3>
+                <ul class="social">
+                    <li>
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+                <p class="text">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus nulla rem, dignissimos iste
+                    aspernatur
+                </p>
+            </div>
+            <div class="box">
+                <ul class="links">
+                    <li><a href="#">Important Link 1</a></li>
+                    <li><a href="#">Important Link 2</a></li>
+                    <li><a href="#">Important Link 3</a></li>
+                    <li><a href="#">Important Link 4</a></li>
+                    <li><a href="#">Important Link 5</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">Egypt, Giza, Inside The Sphinx, Room Number 220</div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">Business Hours: From 10:00 To 18:00</div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>+20123456789</span>
+                        <span>+20198765432</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box footer-gallery">
+                <img src="media/gallery-01.png" alt="" />
+                <img src="media/gallery-02.png" alt="" />
+                <img src="media/gallery-03.jpg" alt="" />
+                <img src="media/gallery-04.png" alt="" />
+                <img src="media/gallery-05.jpg" alt="" />
+                <img src="media/gallery-06.png" alt="" />
+            </div>
+        </div>
+        <p class="copyright"><span class="made">Made </span>
+            <span class="name">By Joe</span> <span class="mark">&hearts;</span>
+        </p>
+    </div>
+    <!-- End Footer -->
 </body>
 
 </html>
